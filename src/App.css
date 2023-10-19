@@ -1,4 +1,43 @@
-.header-section {
-  
+.home-page {
+  height: 700px;
+  background-color: #F9F9F9;
+}
+.title {
+    color: #FF6392;
+    display: flex;
+    justify-content: center;
+    font-family: serif;
 }
 
+.navbar {
+    background-color: #7FC8F8;
+}
+
+.image {
+    background-image: url("./assets/hidden-cat.jpg");
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    background-size: cover;
+}
+
+.notfound {
+    color:#FF6392;
+    display: flex;
+    justify-content: center;
+}
+
+.not-found-link {
+    color: #7FC8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.not-found-link:hover {
+    color: #FFE45E;
+}
+
+.not-found-link:visited {
+    color: #757573;
+}

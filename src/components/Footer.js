@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
-  Collapse,
+  // Collapse,
   Navbar,
-  NavbarToggler,
+  // NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
@@ -12,27 +12,27 @@ import {
 function Footer(props) {
   const [collapsed, setCollapsed] = useState(true);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+  // const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div>
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="me-auto">
-          reactstrap
+          Code Cats
         </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="me-2" />
-        <Collapse isOpen={!collapsed} navbar>
+        {/* <NavbarToggler onClick={toggleNavbar} className="me-2" /> */}
+        {/* <Collapse isOpen={!collapsed} navbar> */}
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">Home</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
                 GitHub
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
-        </Collapse>
+        {/* </Collapse> */}
       </Navbar>
     </div>
   );

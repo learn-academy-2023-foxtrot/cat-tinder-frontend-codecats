@@ -9,7 +9,7 @@ import CatShow from './pages/CatShow';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import codeCats from './MockCats';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom';
 
 const App = () => {
   const [cats, setCats] = useState(codeCats)
