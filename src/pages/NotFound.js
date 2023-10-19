@@ -1,4 +1,3 @@
-// import hidden-cat from ".assets/hidden-cat.jpg";
 import React from "react"
 import {Link} from "react-router-dom"
 

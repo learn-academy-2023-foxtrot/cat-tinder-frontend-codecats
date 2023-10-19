@@ -9,8 +9,8 @@ import {
   NavLink,
 } from 'reactstrap';
 
-function Footer(props) {
-  const [collapsed, setCollapsed] = useState(true);
+function Footer() {
+  // const [collapsed, setCollapsed] = useState(true);
 
   // const toggleNavbar = () => setCollapsed(!collapsed);
 
@@ -24,7 +24,7 @@ function Footer(props) {
         {/* <Collapse isOpen={!collapsed} navbar> */}
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Home</NavLink>
+              <NavLink href="/">Home</NavLink>
             </NavItem>
             {/* <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
