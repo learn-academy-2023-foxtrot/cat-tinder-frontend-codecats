@@ -8,8 +8,8 @@ import CatNew from './pages/CatNew';
 import CatShow from './pages/CatShow';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
+import { Routes, Route} from 'react-router-dom';
 import codeCats from './MockCats';
-import { Routes, Route, Link } from 'react-router-dom';
 
 const App = () => {
   const [cats, setCats] = useState(codeCats)
@@ -20,7 +20,7 @@ const App = () => {
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/catindex" element={<CatIndex />} />
+      <Route path="/catindex" element={<CatIndex cats={cats}/>} />
       <Route path="/catshow" element={<CatShow />} />
       <Route path="/catnew" element={<CatNew />} />
       <Route path="/catedit" element={<CatEdit />} />
