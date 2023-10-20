@@ -6,16 +6,16 @@ describe ("<Header />", () => {
     it ("renders without crashing", () => {
         render(
          <BrowserRouter>
-        <Header />
+           <Header />
         </BrowserRouter>
         )
-        //const element = screen.getByText("Home Page")
+        
    
-    const homeLink = screen.getByRole('link', {
-    name: /home/i
-  })
+        const homeLink = screen.getByRole('link', {
+         name: /home/i
+        })
   
-        //Assert
+       
         expect(homeLink).toBeInTheDocument()
     })
 })

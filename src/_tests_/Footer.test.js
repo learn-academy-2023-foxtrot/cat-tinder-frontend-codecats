@@ -6,15 +6,14 @@ describe ("<Footer />", () => {
     it ("renders without crashing", () => {
         render(
          <BrowserRouter>
-        <Footer />
+           <Footer />
         </BrowserRouter>
         )
       
    
     const homeLink = screen.getByRole('link', {
-    name: /home/i
+     name: /home/i
     })
     expect(homeLink).toBeInTheDocument()
   })
-  
 })

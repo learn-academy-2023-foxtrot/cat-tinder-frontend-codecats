@@ -6,14 +6,14 @@ describe ("<NotFound />", () => {
     it ("renders without crashing", () => {
         render(
          <BrowserRouter>
-        <NotFound />
+          <NotFound />
         </BrowserRouter>
         )
-        //const element = screen.getByText("Home Page")
+        
   
-    const notFound = screen.getByRole('heading', {
-    name: /Error:/i
-  })
+        const notFound = screen.getByRole('heading', {
+         name: /Error:/i
+        })
   
         //Assert
         expect(notFound).toBeInTheDocument()

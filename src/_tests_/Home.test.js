@@ -7,8 +7,8 @@ describe ("<Home />", () => {
         render(<Home/>)
         //const element = screen.getByText("Home Page")
     const headingTitle = screen.getByRole('heading', {
-    name: /welcome to code/i
-  })
+        name: /welcome to code/i
+    })
   
     
         //Assert
