@@ -82,3 +82,5 @@ const CatNew = ({createCat}) => {
 </>
     )
 }
+
+export default CatNew
