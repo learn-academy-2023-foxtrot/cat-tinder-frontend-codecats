@@ -13,15 +13,15 @@ import codeCats from './MockCats';
 
 const App = () => {
   const [cats, setCats] = useState(codeCats)
-  console.log(cats)
+  console.log("codeCats:", cats)
 
  return (
   <>
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/catindex" element={<CatIndex cats={cats}/>} />
-      <Route path="/catshow" element={<CatShow />} />
+      <Route path="/catindex" element={<CatIndex cats={cats} />} />
+      <Route path="/catshow/:id" element={<CatShow cats={cats} />} />
       <Route path="/catnew" element={<CatNew />} />
       <Route path="/catedit" element={<CatEdit />} />
       <Route path="*" element={<NotFound />} />

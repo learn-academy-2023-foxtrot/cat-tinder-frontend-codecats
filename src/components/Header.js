@@ -38,7 +38,7 @@ function Header(args) {
               <DropdownToggle nav caret>
                 Your Activity
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>Liked Profiles</DropdownItem>
                 <DropdownItem>Bookmarked Profiles</DropdownItem>
               </DropdownMenu>
