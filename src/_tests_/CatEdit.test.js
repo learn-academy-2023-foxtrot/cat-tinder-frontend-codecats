@@ -14,7 +14,6 @@ describe('<CatEdit />', () => {
                 name: /update/i
             }) 
 
-            screen.debug(newHeading)
             expect(newHeading).toHaveTextContent("Update Your Cat")
     })
 })
