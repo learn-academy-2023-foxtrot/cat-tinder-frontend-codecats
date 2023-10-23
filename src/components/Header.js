@@ -10,8 +10,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  NavbarText,
+  DropdownItem
 } from 'reactstrap';
 
 function Header(args) {
@@ -30,11 +29,11 @@ function Header(args) {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavLink href="/catnew">
                 Create a New Cat
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Your Activity
               </DropdownToggle>
@@ -42,7 +41,7 @@ function Header(args) {
                 <DropdownItem>Liked Profiles</DropdownItem>
                 <DropdownItem>Bookmarked Profiles</DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
           </Nav>
         </Collapse>
       </Navbar>
