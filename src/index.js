@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import codeCats from './MockCats.js'
+// import catImage from "../assets/hidden-cat.jpg"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

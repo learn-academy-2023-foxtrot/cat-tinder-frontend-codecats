@@ -17,7 +17,7 @@ const CatNew = ({createCat}) => {
     console.log('newCat: ', newCat)
     const handleSubmit = () => {
         createCat(newCat)
-        navigate('/catindex')
+        navigate('/')
     }
     return (
         <>
