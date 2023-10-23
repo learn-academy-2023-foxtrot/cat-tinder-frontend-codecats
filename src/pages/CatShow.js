@@ -1,5 +1,5 @@
 import React from "react"
-import { useParams } from "react-router-dom"
+import { useParams, NavLink } from "react-router-dom"
 import { Card, CardBody, CardSubtitle, CardTitle } from "reactstrap"
 
 const CatShow = ({ cats }) => {
@@ -37,6 +37,9 @@ const CatShow = ({ cats }) => {
                         </CardBody>
                     </Card>
                 )}
+                <NavLink to={`/catedit/${currentCat.id}`} className="nav-link">
+                    Edit Cat Profile
+                </NavLink>
              </main>
         </>
     )
